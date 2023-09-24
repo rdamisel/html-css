@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>FORM CONTROLS</h1>
+    <form action="#" method="#">
+    <div>
+        <h6>Text Input</h6>
+        <!-- <label for="first-name">First Name</label> -->
+        <input type="text" name="first_name" id="first-name" placeholder="Enter First Name" required>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name" placeholder="Doe">
+    </div>
+    <div>
+        <br>
+        <h6>Password Input</h6>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <br>
+        <h6>Number Input</h6>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" max="10" min="0">
+    </div>
+    <div>
+        <br>
+        <h6>Date Input</h6>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+    </div>
+    <div>
+        <br>
+        <h6>Email Input</h6>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <br>
+        <h6>Textarea</h6>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+    </div>
+    <div>
+        <br>
+        <h6>Radio Button</h6>
+        <p>Please select your favorite music genre:</p>
+        <input type="radio" name="music" id="rock">
+        <label for="rock">Rock</label>
+
+        <input type="radio" name="music" id="pop">
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="music" id="jazz">
+        <label for="jazz">Jazz</label>
+    </div>
+
+    <div>
+        <br>
+        <h6>Checkbox</h6>
+        <p>Please select your favorite food:</p>
+        <input type="checkbox" name="food" id="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" id="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" id="curry">
+        <label for="curry">Curry</label>
+    </div>
+
+    <div>
+        <br>
+        <h6>Dropdown List / Single Select</h6>
+        <label for="device">What is your device?</label>
+        <select name="device" id="device">
+            <option value=""hidden>Please Select a device</option>
+            <option value="macbook">Macbook</option>
+            <option value="ipad">iPad</option>
+            <option value="iphone">iPhone</option>
+        </select>
+    </div>
+
+    <div>
+        <br>
+        <h6>Multiple Select</h6>
+        <label for="car">Select a car:</label>
+        <select name="car" id="car" multiple>
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="honda">Honda</option>
+        </select>
+    </div>
+
+    <div>
+        <br>
+        <h6>File Input Box</h6>
+        <label for="file">Select File</label>
+        <input type="file" name="file" id="file">
+    </div>
+
+
+
+    <br>
+    <h6>Input Submit</h6>
+    <input type="submit" value="Submit" name="submit_btn">
+
+    <br>
+    <h6>Button Submit</h6>
+    <button type="submit" name="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>
